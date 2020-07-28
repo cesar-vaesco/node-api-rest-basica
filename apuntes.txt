@@ -3,3 +3,5 @@ Dependencias del proyecto:
       express: es un framework para Node.js que sirve para ayudarnos a crear aplicaciones web en menos tiempo ya que nos proporciona funcionalidades como el  enrutamiento, opciones para gestionar sesiones y cookies entre otras funcionalidades.
 
       morgan: HTTP middleware de registrador de solicitudes para node.js, permite ver por consola las peticiones que van llegando
+
+      Un middleware es una función que procesa datos antes que el servidor la reciba
