@@ -5,3 +5,21 @@ Dependencias del proyecto:
       morgan: HTTP middleware de registrador de solicitudes para node.js, permite ver por consola las peticiones que van llegando
 
       Un middleware es una función que procesa datos antes que el servidor la reciba
+
+
+Underscores.js
+
+      Underscore.js es una librería de javascript que te permite trabajar con un conjunto de datos, por ejemplo, arreglos, matrices o cualquier colección de datos que tengas en tu aplicación de javascript.
+
+      Básicamente Underscore.js hace que sea fácil manipular y realizar operaciones comunes en conjuntos de datos.
+      Ademas puede ser utilizada en  conjunto con otras librerías como jQuery.
+
+      ¿Que clase de operaciones pues realizar con Uderscore.js?
+
+            Puedes reducir grandes conjuntos de datos para facilitar su manipulación
+            Ordenar y agrupar los datos
+            Transformar los datos a diferentes formatos
+            Extraer nuevos datos a partir de los existentes
+            Extender conjuntos de datos con nuevas propiedades
+            Dar formato a los datos usando plantillas
+            Preparando todo para utilizar Underscore

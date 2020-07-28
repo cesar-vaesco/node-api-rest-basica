@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const morgan = require('morgan');
+const colors = require('colors');
 
 //Settings - configuraciones
 app.set('port', process.env.PORT || 3000);
@@ -17,5 +18,5 @@ app.use('/api/movies', require('./routes/movies'));
 
 // Inicializando el servidor
 app.listen(app.get('port'), () => {
-    console.log(`Servidor creado en el puerto ${app.get('port')}`);
+    console.log(`Servidor creado en el puerto ${app.get('port')}`.random);
 });
