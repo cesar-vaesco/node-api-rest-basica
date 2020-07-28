@@ -15,7 +15,7 @@ router.post('/', (req, res, next) => {
         movies.push(newMovie);
         res.json(movies);
     } else {
-        res.send('Petición erronea');
+        res.json({ "respuesta": "Petición erronea" });
     }
 
 })
