@@ -1,0 +1,15 @@
+[{
+        "id": 1,
+        "title": "Aliens",
+        "director": "James Cameron",
+        "year": "1986",
+        "rating": "8.5"
+    },
+    {
+        "id": 2,
+        "title": "Depredador",
+        "director": "Arnold Schwarzenegger",
+        "year": "1986",
+        "rating": "8.0"
+    }
+]
