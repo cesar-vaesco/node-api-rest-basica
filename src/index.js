@@ -15,6 +15,7 @@ app.use(express.json()); //Formato de la respuesta
 //routes
 app.use(require('./routes/index'));
 app.use('/api/movies', require('./routes/movies'));
+app.use('/api/users', require('./routes/users'));
 
 // Inicializando el servidor
 app.listen(app.get('port'), () => {
