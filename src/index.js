@@ -13,6 +13,8 @@ app.use(express.json()); //Formato de la respuesta
 
 //routes
 app.use(require('./routes/index'));
+app.use(require('./routes/movies'));
+
 // Inicializando el servidor
 app.listen(app.get('port'), () => {
     console.log(`Servidor creado en el puerto ${app.get('port')}`);
